@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+    flex-flow: column;
+}
+.ring1 {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    border-radius: 100rem;
+    border: 5px solid blueviolet;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    transform: rotate(15deg);
+    animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.ring2 {
+    width: 100px;
+    height: 100px;
+   padding: 30px;
+    border-radius: 100rem;
+    border: 5px solid blue;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    transform: rotate(20deg);
+    animation: spinner2 3s infinite ease-in-out;
+}
+@keyframes spinner2 {
+    to {
+        transform: rotate(360deg);
+    }
+}  
+.ring3 {
+    width: 70px;
+    height: 70px;
+    margin: 30px;
+    border-radius: 100rem;
+    border: 5px solid red;
+    border-right: 8px solid transparent;
+    transform: rotate(20deg);
+    animation: spinner3 1s infinite ease-in-out;
+}
+@keyframes spinner3 {
+    to {
+        transform: rotate(360deg);
+    }
+}  
+
+.ring4 {
+    width: 130px;
+    height: 130px;
+    margin: 30px;
+    border-radius: 100rem;
+    border: 10px solid yellowgreen;
+    border-right: 8px solid transparent;
+    transform: rotate(20deg);
+    animation: spinner4 1s infinite;
+}
+@keyframes spinner4 {
+    to {
+        transform: rotate(360deg);
+    }
+}  
