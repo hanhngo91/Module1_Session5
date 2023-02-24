@@ -40,6 +40,8 @@
     font-size: 25px;
 }
 
+
+/* -----main content-------- */
 .item {
     display: flex;
     justify-content: space-around;
@@ -102,4 +104,94 @@
 }
 .text p{
     text-align: center;
+}
+
+/* ----footer---- */
+footer{
+    width: 100%;
+    background-color: #535a5fcb;
+    margin-top: 40px;
+}
+.footer_bar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.footer_bar .box_left {
+    display: flex;
+    justify-content: space-around;
+}
+.footer_bar .box_left a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    text-transform: uppercase;
+    animation-duration: 0.5s;
+}
+.footer_bar .box_left .a {
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.footer_bar .box_left a:hover {
+    background-color: rgba(68, 107, 107, .5);
+}
+.footer_bar .box_right {
+    padding-top: 20px;
+}
+.footer_bar .box_right .forum{
+    border-right: 1px solid white;
+}
+.footer_bar .box_right a{
+    padding-inline: 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    animation-duration: 0.5s;
+    margin-top: 10px;
+}
+.footer_bar .box_right a:hover {
+    color: rgba(68, 107, 107, .5);
+}
+
+footer .icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 20px;
+}
+footer .icons .fa-facebook:hover {
+    color: rgba(68, 107, 107, .5);
+}
+
+footer .icons .fa-square-instagram:hover {
+    color: rgba(68, 107, 107, .5);
+}
+footer .icons .fa-square-twitter:hover {
+    color: rgba(68, 107, 107, .5);
+}
+footer .icons .fa-linkedin:hover {
+    color: rgba(68, 107, 107, .5);
+}
+footer .icons i {
+    padding-inline: 10px;
+}
+
+footer .text {
+    text-align: center;
+    padding-bottom: 30px;
+    color: white;
+}
+.up i{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.up i:hover {
+    color: rgba(68, 107, 107, .5);
 }
